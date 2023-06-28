@@ -4,6 +4,10 @@
       {
         "route": "/.auth/login/twitter",
         "statusCode": 404
+      },
+      {
+        "route": "/login",
+        "rewrite": "/.auth/login/github"
       }
     ]
 }
