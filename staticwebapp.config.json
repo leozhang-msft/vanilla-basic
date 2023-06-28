@@ -1,0 +1,9 @@
+{
+    "trailingSlash": "auto",
+    "routes": [
+      {
+        "route": "/.auth/login/twitter",
+        "statusCode": 404
+      }
+    ]
+}
