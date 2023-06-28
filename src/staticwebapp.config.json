@@ -10,7 +10,7 @@
         "rewrite": "/.auth/login/github"
       },
       {
-        "route": "/pages*",
+        "route": "/pages/*",
         "allowedRoles": ["authenticated"]
       },
     ]
