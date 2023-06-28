@@ -21,13 +21,12 @@
         document.querySelector('#name').textContent = text;
     }());
 
-    async function getUserInfo() {
+    (async function() {
         const response = await fetch('/.auth/me');
         const payload = await response.json();
         const { clientPrincipal } = payload;
-        return clientPrincipal;
-    }
-    console.log((await getUserInfo()));
+        console.log(clientPrincipal);
+    }());
     </script>
 </body>
 
