@@ -8,6 +8,10 @@
       {
         "route": "/login",
         "rewrite": "/.auth/login/github"
-      }
+      },
+      {
+        "route": "/pages*",
+        "allowedRoles": ["authenticated"]
+      },
     ]
 }
